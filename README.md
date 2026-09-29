@@ -98,3 +98,11 @@ O modelo recomendado é o **XGBoost**. Ele obteve a maior AUC tanto no teste (0,
 Recomendamos usar o modelo com **limiar de 0,3**. Com ele, o Recall chega a 0,951 e os diabéticos não identificados caem de 174 para 83. O custo são mais exames confirmatórios, algo aceitável em um programa preventivo.
 
 Os fatores mais influentes foram HbA1c e glicose, que são clinicamente coerentes por serem os próprios critérios diagnósticos. Em seguida vêm o número de comorbidades, a idade e o IMC. O modelo é especialmente útil para encontrar casos ainda não diagnosticados. Antes do uso em produção, ele deve ser validado com dados reais da rede de clínicas, e o ideal seria complementá-lo com histórico familiar e dados longitudinais.
+
+## Gráficos
+
+![Matrizes de confusão](graficos/06_matrizes_confusao.png)
+
+![Curva ROC](graficos/07_curva_roc.png)
+
+![Variáveis mais importantes](graficos/08_feature_importance.png)
