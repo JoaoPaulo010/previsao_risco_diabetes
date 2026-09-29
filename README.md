@@ -101,8 +101,8 @@ Os fatores mais influentes foram HbA1c e glicose, que são clinicamente coerente
 
 ## Gráficos
 
-![Matrizes de confusão](graficos/06_matrizes_confusao.png)
+![Matrizes de confusão](06_matrizes_confusao.png)
 
-![Curva ROC](graficos/07_curva_roc.png)
+![Curva ROC](07_curva_roc.png)
 
-![Variáveis mais importantes](graficos/08_feature_importance.png)
+![Variáveis mais importantes](08_feature_importance.png)
